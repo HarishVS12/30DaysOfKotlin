@@ -1,6 +1,6 @@
 import java.util.*
 
-//https://codelabs.developers.google.com/codelabs/kotlin-bootcamp-functions/#1
+//Refer : https://codelabs.developers.google.com/codelabs/kotlin-bootcamp-functions/#1
 
 fun main(args : Array<String>){
 
