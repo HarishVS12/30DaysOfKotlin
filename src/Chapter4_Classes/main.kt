@@ -1,10 +1,10 @@
-package Chapter4_Classes.Codelab
+package Chapter4_Classes
 
 fun main(args:Array<String>){
 
     var callFunction: (Int,Int,Int) -> Unit={
         width,height,length->
-            var aquarium = Aquarium(height=10)
+            var aquarium = Aquarium(height = 10)
         aquarium.printSize()
     }
 
@@ -31,7 +31,7 @@ fun main(args:Array<String>){
 fun buildAquarium(){
 //    val aq6 = Aquarium(25,25,40)
 //    aq6.printSize()
-    val myTower = TowerTank(40,25)
+    val myTower = TowerTank(40, 25)
     myTower.printSize()
 }
 

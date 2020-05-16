@@ -1,4 +1,4 @@
-package Chapter4_Classes.Codelab
+package Chapter4_Classes
 
 //This is developed referring a youtube video
 //Refer : https://www.youtube.com/watch?v=Z6xj7hta7Ac

@@ -1,4 +1,4 @@
-package Chapter4_Classes.Codelab
+package Chapter4_Classes
 
 open class Aquarium(open var width:Int=30,open var length:Int=39,open var height:Int=40){
 

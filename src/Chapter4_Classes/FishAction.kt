@@ -1,4 +1,4 @@
-package Chapter4_Classes.Codelab
+package Chapter4_Classes
 
 interface FishAction {
     fun eat()

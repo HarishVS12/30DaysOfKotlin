@@ -1,4 +1,4 @@
-package Chapter4_Classes.Codelab
+package Chapter4_Classes
 
 //This complete code is for interface delegation which is seen
 //from a youtube video
@@ -25,24 +25,24 @@ interface whoCanTest{
 
 
 
-class Employee( coder:whoCanCode, designer: whoCanDesign, tester:whoCanTest):
-        whoCanCode by coder,whoCanDesign by designer, whoCanTest by tester
+class Employee(coder: whoCanCode, designer: whoCanDesign, tester: whoCanTest):
+        whoCanCode by coder, whoCanDesign by designer, whoCanTest by tester
 
 
 
-class FastCoder: whoCanCode{
+class FastCoder: whoCanCode {
     override fun code() {
         println("Coded by Fast Coder")
     }
 }
 
-class GoodDesigner: whoCanDesign{
+class GoodDesigner: whoCanDesign {
     override fun design() {
         println("Designed by Good Designer")
     }
 }
 
-internal class DecentTester: whoCanTest{
+internal class DecentTester: whoCanTest {
     override fun test() {
         println("Tested by a Decent Tester")
     }
